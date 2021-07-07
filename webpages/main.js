@@ -60,7 +60,7 @@ document.getElementById('fireworkB').onclick = function() {
 }
 
 document.getElementById('snail').onclick = function() { 
-    document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="../pictures/snail.jpg"/>'
+    document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="/pictures/snail"/>'
     document.getElementById('date').innerHTML = 'June 18th, 2016'
     document.getElementById('location').innerHTML = 'Kauai, Hawaii'
     document.getElementById('title').innerHTML = 'Early Bird'
@@ -68,7 +68,7 @@ document.getElementById('snail').onclick = function() {
 }  
 
 document.getElementById('bike').onclick = function() { 
-    document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="../pictures/bike.jpeg"/>'
+    document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="/pictures/bike"/>'
     document.getElementById('date').innerHTML = 'March 17th, 2018'
     document.getElementById('location').innerHTML = 'Big Bend, Texas'
     document.getElementById('title').innerHTML = 'Dog Cholla'

@@ -69,11 +69,31 @@ app.get('/pictures/woods', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/woods.jpeg'))
 });
 
+app.get('/pictures/snail', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/snail.jpg'))
+});
 
 
 
 
 
+
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
 
 app.get('/pictures/firework1', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))

@@ -12,9 +12,9 @@ body {
 
 /* This will be the top navigation bar */
 .topHome {
-    background-image: url('/pictures/lightning2');
+    background-image: url('/pictures/woods');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: center;
     height: 520px;
     width: 100%;
     background-size: 100%;
@@ -28,7 +28,7 @@ body {
 .topPhotography {
     background-image: url('/pictures/lightning2');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right bottom;
     height: 520px;
     width: 100%;
     background-size: 100%;
@@ -40,7 +40,7 @@ body {
 }
 
 .topWork {
-    background-image: url('/pictures/Sunset');
+    background-image: url('/pictures/mexico');
     background-repeat: no-repeat;
     background-position: top;
     height: 520px;

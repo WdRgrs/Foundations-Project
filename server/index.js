@@ -11,7 +11,7 @@ app.use(cors());
 
 app.get('/api/comments', getComments);
 app.post('/api/comments', createComments)
-app.delete('/api/comments/:commentId', deleteComments)
+app.delete('/api/comments/:commentId', deleteComments);
 
 app.get('/', function(req, res) {
     res.sendFile( path.join(__dirname, '../webpages/home.html'))     //built in res method that will send a file     --      path.join joins the path with your file

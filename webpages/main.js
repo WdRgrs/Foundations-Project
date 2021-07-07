@@ -1,8 +1,8 @@
 const commentBoxes = document.querySelector('#commentBoxes');
 const form = document.querySelector('form');
 
-// const baseURL = 'https://wwwwwwwwwwwwwwwwwwwww.herokuapp.com/photos';
-const baseURL = 'http://localhost:5500/api/comments';
+const baseURL = 'https://wwwwwwwwwwwwwwwwwwwww.herokuapp.com/photos';
+// const baseURL = 'http://localhost:5050/api/comments';
 
 const commentCallback = ({ data: comments }) => displayComments(comments);
 const errCallback = err => console.log(err);
@@ -18,7 +18,7 @@ function submitHandler(e) {
     let words = document.querySelector('#words')
 
     let bodyObj = {
-        words: words.value,
+        words: words.value
     }
 
     createComments(bodyObj)
@@ -26,12 +26,12 @@ function submitHandler(e) {
     words.value = ''
 }
 
-function createCommentCard(comments) {
+function createCommentCard(comment) {
     const commentCard = document.createElement('div')
     commentCard.classList.add('comment-card')
 
-    commentCard.innerHTML = `<p class="words">${comments.words}</p>
-        <button onclick="deleteComments(${comments.id})">Remove</button>`
+    commentCard.innerHTML = `<p class="words">${comment.words}</p>
+        <button onclick="deleteComments(${comment.id})">Remove</button>`
 
     commentBoxes.appendChild(commentCard);
 }

@@ -33,15 +33,12 @@ app.get('/main', function(req, res) {
     res.sendFile( path.join(__dirname, '../webpages/main.js'))
 });
 
-app.get('/pictures', function(req, res) {
-    res.sendFile( path.join(__dirname, '../picuters'))
-});
 
 app.get('/pictures/firework1', function(req, res) {
-    res.sendFile( path.join(__dirname, '../picuters/firework1.jpg'))
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
 });
 
-app.use(express.static(path.join(__dirname, '../pictures')))
+
 // app.use('/style', express.static('./public/styles.css')) - try this for linking a static css page
 // app.get('/styles', function(req, res) {
 //     res.sendFile( path.join(__dirname, '../styles.css')) - Do this to link the css file to your html file

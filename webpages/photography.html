@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="/styles">
+</head>
+<body>
+    
+    <!-- This is the start of header -->
+    <div class="topPhotography">
+        <div class="topBar">
+            <div id="Home" onclick="location='/'">Home</div> 
+            <div id="Photography" onclick="location='/photos'">Photography</div>
+            <div id="Work" onclick="location='/work'">Work</div>
+        </div>
+        <h1 id="hello1"></h1><br><br>
+        <h2 id="hello3">“I believe there is nothing more disturbing<br><br> than a sharp image of a fuzzy concept!”</h2><br>
+        <h1 id="hello3">~ Ansel Adams ~</h1>
+    </div>
+    
+    
+    <!-- This is the start of subsection -->
+    <div class="bottom">
+        <div class="bottomLeft">
+            <section id="bottomListTitle">Gallery</section>
+            <div id='fireworkA'>Firework 'A'</div>
+            <div id='fireworkB'>Firework 'B'</div>
+            <div id='snail'>Snail</div>
+            <div id='bike'>Bike</div>
+        </div>
+        <div class="bottomRight">
+            <section>
+                <div id='subjectMatter'>
+                    <div id="pictureReturn">
+                        <img id="fw1" src="../photos/firework1.jpg">
+                    </div>
+                    <li id="pictureStats"><br><br><br>
+                        <p>Date: </p>
+                        <p id="date">July 4th, 2020</p>
+                        <p>Location:</p>
+                        <p id="location">Vanderpool, Texas</p>
+                    </li>
+                </div>
+            </section>
+            <p id="title">Fourth of July</p>
+            <div id="blurb">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quis animi, quo a eveniet, officiis nostrum qui dolores impedit saepe eius illum vero quod dolore sit? Culpa eaque illum atque iste vel dolores velit provident reiciendis est aliquam, veritatis obcaecati minus praesentium delectus. Consequuntur quod aperiam reprehenderit dolorum nostrum modi?
+            </div>
+            
+            
+            
+            
+            <!-- start of comments -->
+            <div id="comments">
+                <label>Comments:</label>
+                <section id="commentBoxes">
+                    <p>test1</p>
+                    <p>test2</p>
+                    <p>test3</p>
+                </section>
+                <form id="commentInputs">
+                    <input 
+                        type='text'
+                        id="words" 
+                        placeholder="Leave a comment!"/>
+                    <button>Send</button>                    
+                </form>
+            </div>
+            
+        </div>     
+    </div>        
+    
+    
+    <!-- This is the start of the Footer area -->
+    <div class="footer">test</div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/index"></script>
+    
+    <!-- functionality for the webpages -->
+    <!-- <script>
+        document.getElementById('fireworkA').onclick = function() {
+            document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="../pictures/firework2.jpg"/>'
+            document.getElementById('date').innerHTML = 'July 4th, 2020'
+            document.getElementById('location').innerHTML = 'Vanderpool, Texas'
+            document.getElementById('title').innerHTML = 'Volatile Luminescent Sky Urchin'
+            document.getElementById('blurb').innerHTML = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, esse assumenda tempora eos cumque animi id exercitationem accusamus corporis, beatae aliquam odio numquam, voluptas aut? <br><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, iure dolorem corrupti doloribus ab ullam?'
+        }  
+        
+        document.getElementById('fireworkB').onclick = function() { 
+            document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="../pictures/firework1.jpg"/>'
+            document.getElementById('date').innerHTML = 'July 4th, 2020'
+            document.getElementById('location').innerHTML = 'Vanderpool, Texas'
+            document.getElementById('title').innerHTML = 'Volatile Luminescent Sky Urchin, the Second'
+            document.getElementById('blurb').innerHTML = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quis animi, quo a eveniet, officiis nostrum qui dolores impedit saepe eius illum vero quod dolore sit? Culpa eaque illum atque iste vel dolores velit provident reiciendis est aliquam, veritatis obcaecati minus praesentium delectus. Consequuntur quod aperiam reprehenderit dolorum nostrum modi?'
+        }
+        
+        document.getElementById('snail').onclick = function() { 
+            document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="../pictures/snail.jpg"/>'
+            document.getElementById('date').innerHTML = 'June 18th, 2016'
+            document.getElementById('location').innerHTML = 'Kauai, Hawaii'
+            document.getElementById('title').innerHTML = 'Early Bird'
+            document.getElementById('blurb').innerHTML = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, esse assumenda tempora eos cumque animi id exercitationem accusamus corporis, beatae aliquam odio numquam, voluptas aut?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, iure dolorem corrupti doloribus ab ullam?'
+        }  
+        
+        document.getElementById('bike').onclick = function() { 
+            document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="../pictures/bike.jpeg"/>'
+            document.getElementById('date').innerHTML = 'March 17th, 2018'
+            document.getElementById('location').innerHTML = 'Big Bend, Texas'
+            document.getElementById('title').innerHTML = 'Dog Cholla'
+                document.getElementById('blurb').innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit unde veniam dolor modi nostrum tempore aspernatur qui quas libero laborum, voluptates ut soluta ipsam quisquam fugit mollitia repellat earum.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit unde veniam dolor modi nostrum tempore aspernatur qui quas libero laborum, voluptates ut soluta ipsam quisquam fugit mollitia repellat earum.'
+            }  
+        </script> -->
+
+</body>
+</html>

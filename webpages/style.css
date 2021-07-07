@@ -1,0 +1,381 @@
+body {
+    display: grid;
+    grid-gap: 0;
+    border: 0px;
+    margin: 0px;
+    background: black;    
+}
+
+* {
+    all: none;
+}
+
+/* This will be the top navigation bar */
+.topHome {
+    background-image: url('https://lh3.googleusercontent.com/YoeYVIWXf313W6zydMCYBE3fiC15WJu5kIEqAVrJG95Its1AqTggy6VnXxdTYX-sejf4x2a-a7XLgSluMc81aFxYGiR10a6DAyCcp3IuHH4DFFRrmWvBNqBSkIl-0Nr99YiNBYpQMvTbLrHTWZfF_MOpBfTAJAlFMkWEB-7Kgy_F7RmIvskivh5gyD0Q9gbM9sf6eBmvT-VVjRB-sPqGBHLf26nmIbUiM1QqcDk4oMBb6YYYx1GBpgxAX3pwJSesxVAkvvyJ0AjfhqYKvuInYA7ICF7yyoewVasm354t3AtZ3u-uscWI3OTAAxFYlkwJb1RrexB6Xq_IRMDSvL69XfRkIRNsziFNNwJgp1uIdNz6Z_bVZO1ypLsQGuDew7eu5qw6afa8PerWzpvizR_jW_jnzYIlfHHig8UmOx0Ske6LdZVR3Q26qo0x-1GUYD3ViOGQw65SXAgoamTDIFBnWh49EYMv7-IqQa4ZbYsed1tHWswSPnTdUBvA4tBlEpNIqef1tN92Psv9gb4i6VMoojr4oa6enFRAh3eJtSdzUa4lN7cvx0vEXJSS_9pSMT-XCBDgMEJ1zcipVdyqZB-iun9fg5BHBJ0z-ZI7_FZ1lGAsnxkox_yyk1zlTuHcK4Otrp000qs6DqvZE8B7tlbCLsGxwxbP4Ym1iGMtn_uQt5dDP1ySTSO_j9lNE6yZLN7O9-7T08ryWmWomksLeiVZ4q0q=w1724-h969-no?authuser=0');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 520px;
+    width: 100%;
+    background-size: 100%;
+    border-bottom: #3c2144cc 4px groove; 
+    
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 8px;
+    font-style: oblique 0deg;    
+}
+
+.topPhotography {
+    background-image: url('https://lh3.googleusercontent.com/hEPXod6J16_KtbYdsmEtEv7yThJrPvUE9P0j_IKGojju1m1dBd-q-zR-twnVbufe-1rvj91NVet9P3CVznugGxSOPrwsnYg10TpUJgTulIVJF5Rt7tiMChgtf57Q8JnK-W8a1gKEZo_GwzkwpC0rkPRinttgeLpFS8TDveNMIa6QmGSDXSj17QGjDJ6KbHk9HTDq0HaL4kj3lfiAbjiHbChxJqXOj64eTuyuVyymDYhyZlWGSGl0ZNf7HS16tilw3YUhuh2ktV9xznfl2v8q7y3uOAR9BiN7bV5M_n5DHNbyV08h5mc_xUPVNhaQUns5EWRl7B_KTZxTj7FDWUlfN3mkWKUGgWR5FwajX5NowAEUYSCFlpufcIAsHcB7J4y-GmmPC9cVdTleEOZD9bluEEDdEXUva3BB3Nrld_H_L3Qx-LcpelFG5Ncbt2BHMFu9k2bZUW-67t0ciFxK_FzEjRk0kH4f-IXuCz3LlqmjpggRgokZI3FeZRWyx76UPcKY91Y8isXKuNyou0aWs98zCMT7YdZAqqfY49mdKGhjrAjckF39hmIdD7KxWk2cySLexytC7H8CtHozy8b86ViXzZYXrxFMIM3it4O9q_ENKSQIXtZR5S-7x2uGFgC70mvZYv71uoCdMRAyDi5KBSsgVj0clxgGa0Efr7qvNbO1NWzwcDRLZaN3AVM3FjYNT6BwempTaOcZc5t3wD3A9vFqWiti=w1724-h969-no?authuser=0');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 520px;
+    width: 100%;
+    background-size: 100%;
+    border-bottom: #3c2144cc 4px groove; 
+    
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 8px;
+    font-style: oblique 0deg;
+}
+
+.topWork {
+    background-image: url('https://lh3.googleusercontent.com/N_y--7aVnn4-Phw-Y30TNBJayk5hhNskf9ifUNhqScmUJUjoMpTkslww7Ca1jaxzZ4V7S_wRTcD447pE-czAWJj9vo_-Six1v7hnV1aTQwQu3DQ8MJNkk7tOSwF8C3nrFgNXL5vIdoSmmRmfbURkBDFfFuOLvQOWIZKRJzcE4nG2YvGmFKuWgqckUnPvHiXfYdV_BK5G3QkBmfNFTRRgzOyk8As5EhAp8y1QNWhpfbrFYmAjVN08g_1QYv5m7nbKSL68FC-arR9DfLjBSPonialIQeiUXzARc93ygeFmZmtIsFscoEst8fA79YY0-SyNk8fngAZjUU-rU44ovHbqigBjrHZpeCgRfKxfOJ3_2o-AirfwBbYqETCFvs8OvfnkyEHVWIjBaoh57n4IQfEN04H-ySmOlFD4f7Yf3-h_Nfue7k9hJY_9igCV_0TyUlzI_nwpwIWDCKjbFsSdqHn2piSfUWVzQc2PujCDrfv0KSs-yH_R6ML2MG7hInQVEnxPaLFB49U8AyW6Ds5S7Oescu5kxc7zT4XXEGq8JoBNYcfGGc6nZfWV6uhxTaN6e86fBJ9lozbj9UmYWAzw2cMIq9rUo9g4-4JMX3C8sqcDftDW3Km-uT_6k1TALQTgQD3Gk8bXnc3_mM9rCgfWs53RzAyoxoz1q2RerQnc8s4-rUdEtwHxy-EU_kMx0OPCuBprcxOr7m4NpFc1Ii8o-bccDXPG=w1454-h969-no?authuser=0');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 520px;
+    width: 100%;
+    background-size: 100%;
+    border-bottom: #3c2144cc 4px groove; 
+    
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 8px;
+    font-style: oblique 0deg;    
+}
+
+.topBar {
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    grid-gap: .1em;
+    grid-auto-columns: minmax(100px, auto);
+    grid-auto-rows: minmax(50px, auto);
+    background-color: #00000044;    
+    border-bottom: #342638a4 2px groove; 
+}
+
+.topBar > div{
+    padding: .1em;
+    margin: .5em;
+    border-radius: .21em;
+    background: #7b6d8d7a;
+    color: #A5C4D4;
+    text-align: center;
+    
+    
+    /*This is the general font to be used throughout*/
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    letter-spacing: 12px;
+    word-spacing: 2px;
+    font-weight: 800;
+    font-style: oblique 10deg;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: 2px 2px 3px #e5f1f73a;
+}
+.topBar > div:hover{
+    cursor: pointer;
+    background-color: #7b6d8d;
+    color: black;;
+}
+
+.topBar > div:nth-child(odd){
+    background: #593f6281;
+    color: #8499B1;
+}
+.topBar > div:nth-child(odd):hover{
+    cursor: pointer;
+    background-color: #7b6d8d;
+    color: black;
+}
+
+#hello1 {
+    color: #bda1afa4;
+    text-align: Center;
+    font-size: 46px;
+    text-shadow: 2px 2px 8px #bda1afc5;
+    padding-top: 2%;
+}
+
+#hello2 {
+    color: #bda1afc2;
+    text-align: Center;
+    font-size: 28px;
+    text-shadow: 2px 2px 10px #bda1af7c;
+}
+
+#hello3 {
+    color: #bda1af25;
+    text-align: Center;
+    text-shadow: -2px -2px 1px #ffffffbd;
+    font-size: 20px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    min-height: 600px;
+    /* 
+    grid-column-gap: 1em;  - Sets the gap between columns to 1em
+    grid-row-gap: 1em;  - em is relative size of text
+    */
+}
+
+.bottomLeft {
+    background: rgba(207, 207, 214, 0.288);
+    border-right: #bc62d82d 4px groove; 
+    text-align:center;
+    
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax (100px, auto);
+    
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    letter-spacing: 12px;
+    word-spacing: 2px;
+    font-weight: 600;
+    font-style: oblique 0deg;
+    font-variant: small-caps;
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px #a392e4;
+}
+
+#bottomListTitle {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 38px;
+    letter-spacing: 12px;
+    word-spacing: 2px;
+    font-weight: 350;
+    font-style: oblique 10deg;
+    font-variant: small-caps;
+    text-transform: none;
+    color: white;
+    text-shadow: 2px 2px 2px #a392e4;
+}
+
+.bottomLeft > div{
+    background: #7b6d8d7a;
+    padding: .3em;
+    /* margin: auto; */
+}
+
+.bottomLeft > div:hover{
+    cursor: pointer;
+    color: white;
+    text-shadow: 2px 2px 2px #a392e4;
+}
+
+.bottomLeft > div:nth-child(odd){
+    background: #593f6281;
+}
+
+
+/* Bottom right for Content Area */
+.bottomRight{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax (100px, auto);
+    flex-wrap: wrap;
+
+    background-color: black;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    letter-spacing: 12px;
+    word-spacing: 2px;
+    font-weight: 800;
+    font-style: oblique 10deg;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: 1px 1px 1px #0000009f;
+}
+
+#fw1 {
+    height: 55vh;
+    margin: 4em 0 0 3.5em;
+    border: white solid;
+    border-radius: 5px;
+
+}
+
+.footer {
+    background: rgb(51, 51, 51);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: #593f62 8px groove; 
+}
+
+
+
+
+
+
+
+
+#subjectMatter {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+#pictureStats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 5vw;
+    line-height: 2px;
+    white-space: nowrap;
+    overflow: hidden; 
+    padding-right: 30px;
+}
+
+#title {
+    padding-top: 2%;
+    font-size: 30px;
+    font-weight: 550;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 3px;
+    font-style: oblique 0deg;
+    font-variant: normal;
+    text-transform: none;
+    color: #e6ecf0;
+}
+
+#pictureStats > p:nth-child(even){
+    font-family: "Courier New", Courier, monospace;
+    font-size: 23px;
+    letter-spacing: 12px;
+    word-spacing: 2px;
+    font-weight: 600;
+    font-style: oblique 0deg;
+    font-variant: small-caps;
+    text-transform: none;
+    color: #e5f1f79f;
+}
+
+#pictureStats > p:nth-child(odd){
+    font-family: "Courier New", Courier, monospace;
+    font-size: 38px;
+    letter-spacing: 12px;
+    word-spacing: 2px;
+    font-weight: 350;
+    font-style: oblique 10deg;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: 2px 2px 0px #a392e4;
+}
+
+#blurb{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-style: oblique 0deg;
+    font-variant: normal;
+    text-transform: none;
+    color: #e6ecf0;
+}
+
+
+
+
+
+
+
+
+
+/* ===================Comments=================== */
+label{
+    justify-self: center;
+    display: flex;
+    text-align: center;
+    padding: 40px;
+}
+
+#comments{
+    display: flex;
+    flex-direction: column;
+    background: lightgrey;
+    /* margin: 5vw; */
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+#commentBoxes {
+    display: flex;
+    background: white;
+    width: 90%;
+    flex-direction: column;
+}
+
+#commentBoxes > p {
+    display: flex;
+    background: red;
+
+}
+
+#commentBoxes > p:nth-child(odd){
+    display: flex;
+    background: #593f6281;
+    color: #8499B1;
+}
+
+.comment-card {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    
+    border: 2px solid #232323;
+    font-size: 17px;
+    padding: 5px;
+    
+    width: 120px;
+    height: 30px;
+    
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 20px;
+    color: black;
+    background-color: red;
+    border: 5px solid rgb(139, 93, 93);
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  }
+
+#commentInputs {
+    background: darkblue;
+    padding: 20px;
+    width: 90%;
+}
+
+.words {
+    font-size: 20px;
+    margin: 5px ;
+}

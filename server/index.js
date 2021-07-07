@@ -33,6 +33,14 @@ app.get('/main', function(req, res) {
     res.sendFile( path.join(__dirname, '../webpages/main.js'))
 });
 
+app.get('/pictures', function(req, res) {
+    res.sendFile( path.join(__dirname, '../picuters'))
+});
+
+app.get('/pictures', function(req, res) {
+    res.sendFile( path.join(__dirname, '../picuters/lightning2.jpg'))
+});
+
 app.use(express.static(path.join(__dirname, '../pictures')))
 // app.use('/style', express.static('./public/styles.css')) - try this for linking a static css page
 // app.get('/styles', function(req, res) {

@@ -44,7 +44,7 @@ function displayComments(arr) {
 }
 
 document.getElementById('fireworkA').onclick = function() {
-    document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="pictures/firework2.jpg"/>'
+    document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="/pictures/firework2"/>'
     document.getElementById('date').innerHTML = 'July 4th, 2020'
     document.getElementById('location').innerHTML = 'Vanderpool, Texas'
     document.getElementById('title').innerHTML = 'Volatile Luminescent Sky Urchin'
@@ -52,7 +52,7 @@ document.getElementById('fireworkA').onclick = function() {
 }  
 
 document.getElementById('fireworkB').onclick = function() { 
-    document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="pictures/firework1.jpg"/>'
+    document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="/pictures/firework1"/>'
     document.getElementById('date').innerHTML = 'July 4th, 2020'
     document.getElementById('location').innerHTML = 'Vanderpool, Texas'
     document.getElementById('title').innerHTML = 'Volatile Luminescent Sky Urchin, the Second'

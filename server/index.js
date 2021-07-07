@@ -34,10 +34,49 @@ app.get('/main', function(req, res) {
 });
 
 
+
+
+//START OF PICTURES --- BIG OOF
+
 app.get('/pictures/firework1', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
 });
 
+app.get('/pictures/firework2', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework2.jpg'))
+});
+
+
+
+
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
+
+app.get('/pictures/firework1', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+});
 
 // app.use('/style', express.static('./public/styles.css')) - try this for linking a static css page
 // app.get('/styles', function(req, res) {

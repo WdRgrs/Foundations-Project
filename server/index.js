@@ -47,7 +47,7 @@ app.get('/pictures/firework2', function(req, res) {
 });
 
 app.get('/pictures/lightning2', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/lightning2'))
+    res.sendFile( path.join(__dirname, '../pictures/lightning2.jpg'))
 });
 
 

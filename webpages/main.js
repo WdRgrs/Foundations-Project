@@ -1,7 +1,7 @@
 const commentBoxes = document.querySelector('#commentBoxes');
 const form = document.querySelector('form');
 
-const baseURL = 'http://localhost:5050/api/comments';
+const baseURL = 'https://wwwwwwwwwwwwwwwwwwwww.herokuapp.com/photos';
 
 const commentCallback = ({ data: comments }) => displayComments(comments);
 const errCallback = err => console.log(err);

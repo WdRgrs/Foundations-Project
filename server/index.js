@@ -50,21 +50,22 @@ app.get('/pictures/lightning2', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/lightning2.jpg'))
 });
 
-
-
-
-
-app.get('/pictures/firework1', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+app.get('/pictures/sunset2', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/sunset2.jpeg'))
 });
 
-app.get('/pictures/firework1', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+app.get('/pictures/bike', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/bike.jpeg'))
 });
 
-app.get('/pictures/firework1', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+app.get('/pictures/Sunset', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/Sunset.jpeg'))
 });
+
+
+
+
+
 
 app.get('/pictures/firework1', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))

@@ -71,7 +71,7 @@ document.getElementById('bike').onclick = function() {
     document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="/pictures/bike"/>'
     document.getElementById('date').innerHTML = 'March 17th, 2018'
     document.getElementById('location').innerHTML = 'Big Bend, Texas'
-    document.getElementById('title').innerHTML = 'Dog Cholla'
+    document.getElementById('title').innerHTML = 'Dog Cholla - Single Track'
         document.getElementById('blurb').innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit unde veniam dolor modi nostrum tempore aspernatur qui quas libero laborum, voluptates ut soluta ipsam quisquam fugit mollitia repellat earum.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit unde veniam dolor modi nostrum tempore aspernatur qui quas libero laborum, voluptates ut soluta ipsam quisquam fugit mollitia repellat earum.'
     }  
 

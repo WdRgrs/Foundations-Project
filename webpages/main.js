@@ -1,14 +1,15 @@
 const commentBoxes = document.querySelector('#commentBoxes');
 const form = document.querySelector('form');
 
-const baseURL = 'https://wwwwwwwwwwwwwwwwwwwww.herokuapp.com/photos';
+// const baseURL = 'https://wwwwwwwwwwwwwwwwwwwww.herokuapp.com/photos';
+const baseURL = 'http://localhost:5500/api/comments';
 
 const commentCallback = ({ data: comments }) => displayComments(comments);
 const errCallback = err => console.log(err);
 
 const getAllComments = () => axios.get(baseURL).then(commentCallback).catch(errCallback);
-const createComment = body => axios.post(baseURL, body).then(commentCallback).catch(errCallback);
-const deleteComment = id => axios.delete(`${baseURL}/${id}`).then(commentCallback).catch(errCallback)
+const createComments = body => axios.post(baseURL, body).then(commentCallback).catch(errCallback);
+const deleteComments = id => axios.delete(`${baseURL}/${id}`).then(commentCallback).catch(errCallback)
 // const updateComment = (id, type) => axios.put(`${baseURL}/${id}`, {type}).then(commentCallback).catch(errCallback)
 
 function submitHandler(e) {
@@ -20,7 +21,7 @@ function submitHandler(e) {
         words: words.value,
     }
 
-    createComment(bodyObj)
+    createComments(bodyObj)
 
     words.value = ''
 }
@@ -30,7 +31,7 @@ function createCommentCard(comments) {
     commentCard.classList.add('comment-card')
 
     commentCard.innerHTML = `<p class="words">${comments.words}</p>
-        <button onclick="deleteComment(${comments.id})">Remove</button>`
+        <button onclick="deleteComments(${comments.id})">Remove</button>`
 
     commentBoxes.appendChild(commentCard);
 }

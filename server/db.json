@@ -2,5 +2,9 @@
     {
       "id": 1,
       "words": "Here is my test comment"
+    },
+    {
+      "id": 2,
+      "words": "Here is another my test comment"
     }
   ]

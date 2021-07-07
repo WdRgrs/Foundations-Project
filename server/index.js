@@ -29,7 +29,7 @@ app.get('/styles', function(req, res) {
     res.sendFile( path.join(__dirname, '../webpages/style.css'))
 });
 
-app.get('/index', function(req, res) {
+app.get('/main', function(req, res) {
     res.sendFile( path.join(__dirname, '../webpages/main.js'))
 });
 

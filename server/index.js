@@ -37,8 +37,8 @@ app.get('/pictures', function(req, res) {
     res.sendFile( path.join(__dirname, '../picuters'))
 });
 
-app.get('/pictures', function(req, res) {
-    res.sendFile( path.join(__dirname, '../picuters/lightning2.jpg'))
+app.get('/pictures/firework1.jpg', function(req, res) {
+    res.sendFile( path.join(__dirname, '../picuters/firework1.jpg'))
 });
 
 app.use(express.static(path.join(__dirname, '../pictures')))

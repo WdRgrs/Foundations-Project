@@ -1,8 +1,8 @@
 const commentBoxes = document.querySelector('#commentBoxes');
 const form = document.querySelector('form');
 
-const baseURL = 'https://wwwwwwwwwwwwwwwwwwwww.herokuapp.com/api/comments';
-// const baseURL = 'http://localhost:5050/api/comments';
+// const baseURL = 'https://wwwwwwwwwwwwwwwwwwwww.herokuapp.com/api/comments';
+const baseURL = 'http://localhost:5050/api/comments';
 
 const commentCallback = ({ data: comments }) => displayComments(comments);
 const errCallback = err => console.log(err);
@@ -31,9 +31,12 @@ function createCommentCard(comment) {
     commentCard.classList.add('comment-card')
     
     commentCard.innerHTML = `<p class="words">${comment.words}</p>
-    <button onclick="deleteComments(${comment.id})">Remove</button>`
+    <div id='delete' onclick="deleteComments(${comment.id})">X</div>`
     
     commentBoxes.appendChild(commentCard);
+
+    myDiv = document.getElementById("commentBoxes");
+    myDiv.scrollTop = myDiv.scrollHeight;
 }
 
 function displayComments(arr) {
@@ -50,6 +53,10 @@ getAllComments();
 
 
 //Start of buttons
+
+document.getElementById('bottomListTitle').onclick = function() {
+    window.location.reload();
+}
 
 document.getElementById('fireworkA').onclick = function() {
     document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="/pictures/firework2"/>'

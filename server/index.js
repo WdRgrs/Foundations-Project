@@ -93,28 +93,6 @@ app.get('/pictures/barpic', function(req, res) {
 });    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-app.get('/pictures/firework1', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
-});
-
-app.get('/pictures/firework1', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
-});
-
 // app.use('/style', express.static('./public/styles.css')) - try this for linking a static css page
 // app.get('/styles', function(req, res) {
 //     res.sendFile( path.join(__dirname, '../styles.css')) - Do this to link the css file to your html file

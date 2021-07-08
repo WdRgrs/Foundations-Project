@@ -1,7 +1,7 @@
 const {response} = require('express');
 const comments = require('./db.json');
 
-let commentId = 3;
+let commentId = 2;
 
 module.exports = {
     getComments: function(req, res) {

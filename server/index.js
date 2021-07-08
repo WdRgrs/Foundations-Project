@@ -29,11 +29,17 @@ app.get('/styles', function(req, res) {
     res.sendFile( path.join(__dirname, '../webpages/style.css'))
 });
 
-app.get('/main', function(req, res) {
-    res.sendFile( path.join(__dirname, '../webpages/main.js'))
+app.get('/homepage', function(req, res) {
+    res.sendFile( path.join(__dirname, '../webpages/homepage.js'))
 });
 
+app.get('/photographypage', function(req, res) {
+    res.sendFile( path.join(__dirname, '../webpages/photographypage.js'))
+});
 
+app.get('/workpage', function(req, res) {
+    res.sendFile( path.join(__dirname, '../webpages/workpage.js'))
+});
 
 
 //START OF PICTURES --- BIG OOF
@@ -54,13 +60,14 @@ app.get('/pictures/sunset2', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/sunset2.jpeg'))
 });
 
+app.get('/pictures/Sunset', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/Sunset.jpeg'))
+});
+
 app.get('/pictures/bike', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/bike.jpeg'))
 });
 
-app.get('/pictures/Sunset', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/Sunset.jpeg'))
-});
 app.get('/pictures/mexico', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/mexico.jpg'))
 });
@@ -73,17 +80,17 @@ app.get('/pictures/snail', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/snail.jpg'))
 });
 
-app.get('/pictures/anselTree', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/anselTree.jpeg'))
-});
-
-app.get('/pictures/barpic', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/barpic.jpg'))
-});
-
 app.get('/pictures/snail2', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/snail2.jpg'))
 });
+
+app.get('/pictures/anselTree', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/anselTree.jpeg'))
+});    
+
+app.get('/pictures/barpic', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/barpic.jpg'))
+});    
 
 
 

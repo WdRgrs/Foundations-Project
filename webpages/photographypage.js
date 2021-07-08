@@ -91,5 +91,3 @@ document.getElementById('bike').onclick = function() {
     document.getElementById('title').innerHTML = 'Dog Cholla - Single Track'
     document.getElementById('blurb').innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit unde veniam dolor modi nostrum tempore aspernatur qui quas libero laborum, voluptates ut soluta ipsam quisquam fugit mollitia repellat earum.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit unde veniam dolor modi nostrum tempore aspernatur qui quas libero laborum, voluptates ut soluta ipsam quisquam fugit mollitia repellat earum.'
 }  
-
-

@@ -156,15 +156,15 @@ body {
     padding-top: 4vh;
     padding-bottom: 4vh;
     font-family: "Courier New", Courier, monospace;
-    font-size: 38px;
+    font-size: 34px;
     letter-spacing: 12px;
-    word-spacing: 2px;
+    word-spacing: -20px;
     font-weight: 350;
     font-style: oblique 10deg;
     font-variant: small-caps;
     text-transform: none;
     color: white;
-    text-shadow: 2px 2px 2px #a392e4;
+    text-shadow: 1px 2px 2px #a392e4;
 }
 
 .bottomLeft > div{
@@ -191,6 +191,7 @@ body {
     grid-gap: 1em;
     grid-auto-rows: minmax (100px, auto);
     flex-wrap: wrap;
+    
 
     background-color: black;
     color: white;
@@ -210,7 +211,13 @@ body {
     margin: 4em 0 0 3.5em;
     border: white solid;
     border-radius: 5px;
+}
 
+
+#fw2 {
+    height: 45vh;
+    margin: 4em 0 0 3.5em;
+    border-radius: 5px;
 }
 
 .footer {
@@ -221,7 +228,27 @@ body {
     border-top: #593f62 8px groove; 
 }
 
+/*  */
+/* about me */
+/*  */
 
+#aboutMe{
+    font-family: "Courier New", Courier, monospace;
+    height: 45vh;
+    margin: 4em 0 0 0em;
+    font-size: 23px;
+    letter-spacing: 2px;
+    word-spacing: -2px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: oblique 0deg;
+    font-variant: none;
+    text-transform: none;
+    color: #e5f1f7e7;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10vh;
+}
 
 
 
@@ -241,10 +268,13 @@ body {
     justify-content: flex-end;
     padding-left: 5vw;
     line-height: 2px;
-    white-space: nowrap;
-    overflow: hidden; 
+    overflow-wrap: normal;
+    /* overflow: hidden;  */
+    /* white-space: nowrap; */
     padding-right: 30px;
 }
+
+
 
 #title {
     padding-top: 2%;

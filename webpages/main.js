@@ -43,6 +43,29 @@ function displayComments(arr) {
     }
 }
 
+
+
+
+
+
+
+
+//HOME PAGE FUNCTIONALITY
+
+
+// document.getElementById('aboutWade').onclick = function() { 
+//     document.getElementById('pictureReturn').innerHTML = '<img id="fw2" src="/pictures/barpic"/>'
+//     document.getElementById('aboutMe').innerHTML = 'Coming from a previous career in industrial welding and other things that I do not know what to say right now, probably I will update this but I would imagine it will be about this long but maybe not with a run-on sentence, you know what I mean?  That was more of a run on question but you get the jist of it.'
+// }  
+
+// document.getElementById('skills').onclick = function() { 
+//     document.getElementById('pictureReturn').innerHTML = '<img id="fw2" src="/pictures/skills"/>'
+//     document.getElementById('aboutMe').innerHTML = 'this is a test'
+// }  
+
+
+//PHOTO PAGE FUNCTIONALITY
+
 document.getElementById('fireworkA').onclick = function() {
     document.getElementById('pictureReturn').innerHTML = '<img id="fw1" src="/pictures/firework2"/>'
     document.getElementById('date').innerHTML = 'July 4th, 2020'
@@ -74,6 +97,20 @@ document.getElementById('bike').onclick = function() {
     document.getElementById('title').innerHTML = 'Dog Cholla - Single Track'
         document.getElementById('blurb').innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit unde veniam dolor modi nostrum tempore aspernatur qui quas libero laborum, voluptates ut soluta ipsam quisquam fugit mollitia repellat earum.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sit unde veniam dolor modi nostrum tempore aspernatur qui quas libero laborum, voluptates ut soluta ipsam quisquam fugit mollitia repellat earum.'
     }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -81,24 +81,24 @@ app.get('/pictures/barpic', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/barpic.jpg'))
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-app.get('/pictures/firework1', function(req, res) {
-    res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
+app.get('/pictures/snail2', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/snail2.jpg'))
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 app.get('/pictures/firework1', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))

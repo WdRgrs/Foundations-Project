@@ -226,6 +226,33 @@ body {
     border-radius: 5px;
 }
 
+#fw3 {
+    height: 40vh;
+    margin: 4em 0 0 3.5em;
+    border-radius: 5px;
+}
+
+#fw3:hover {
+    cursor: pointer;
+    height: 40vh;
+    margin: 4em 0 0 3.5em;
+    border-radius: 5px;
+}
+
+#fw4 {
+    cursor: pointer;
+    height: 120px;
+    margin: 4em 0 0 3.5em;
+    border-radius: 5px;
+}
+#fw4:hover {
+    cursor: pointer;
+    height: 125px;
+    margin: 4em 0 0 3.5em;
+    border-radius: 5px;
+}
+
+
 .footer {
     background: rgb(51, 51, 51);
     position: relative;
@@ -308,8 +335,6 @@ body {
     color: #e5f1f79f;
 }
 
-
-
 #pictureStats > p:nth-child(odd){
     font-family: "Courier New", Courier, monospace;
     font-size: 38px;
@@ -322,11 +347,22 @@ body {
     text-shadow: 2px 2px 0px #a392e4;
 }
 
+ /* #date{
+    height: auto;
+    overflow-wrap: break-word;
+    line-height: 1px;
+}
+#location{
+    height: auto;
+    overflow-wrap: break-word;
+    line-height: 1px;
+}  */
+
 #blurb{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2%;
-    text-align: center;
+    text-align: left;
     font-family: "Courier New", Courier, monospace;
     font-size: 22px;
     letter-spacing: 3px;

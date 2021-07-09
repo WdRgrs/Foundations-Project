@@ -60,13 +60,25 @@ app.get('/pictures/bridge', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/bridge.jpeg'))
 }); 
 
+app.get('/pictures/currentproject', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/currentproject.jpg'))
+}); 
+
 app.get('/pictures/firework1', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/firework1.jpg'))
 });    
 
 app.get('/pictures/firework2', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/firework2.jpg'))
-});    
+});
+
+app.get('/pictures/gator', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/gator.jpg'))
+}); 
+
+app.get('/pictures/github', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/github.jpg'))
+});
 
 app.get('/pictures/glacierLake', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/glacierLake.jpeg'))
@@ -79,6 +91,10 @@ app.get('/pictures/lighthouse', function(req, res) {
 app.get('/pictures/lightning2', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/lightning2.jpg'))
 });    
+
+app.get('/pictures/linkedin', function(req, res) {
+    res.sendFile( path.join(__dirname, '../pictures/linkedin.jpg'))
+});
 
 app.get('/pictures/mexico', function(req, res) {
     res.sendFile( path.join(__dirname, '../pictures/mexico.jpg'))

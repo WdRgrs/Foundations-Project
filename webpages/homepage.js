@@ -1,9 +1,9 @@
 document.getElementById('aboutwade').onclick = function() { 
-        document.getElementById('pictureReturn').innerHTML = '<img id="fw2" src="/pictures/gator"/>'
-        document.getElementById('date').innerHTML = 'Current : '
-        document.getElementById('location').innerHTML = 'Full-Stack Web Dev Student'
-        document.getElementById('title').innerHTML = 'About : '
-        document.getElementById('blurb').innerHTML = "Howdy! I'm Wade, currently a full time student with aspirations of becoming a full-stack web developer!  I have coding experience with JavaScript, HTML5, CSS3, Git, Github, Heroku and even some design experience with Figma.  Before I got the coding bug, I was working as a travelling industrial welder which took me all over domestically, and even outside of the country a little bit.  After over a decade of burning up anything that came within a 20 foot radius of me, I've decided to hang up the full-time welding hood, although I'm still open to smaller projects.  Outside of work life, I'm forever a curious and adventerous person with hobbies including anything from scuba-diving, photography, multi-day camping/hiking excursions and catching up on the latest video games.  I will forever be a lifelong student, although I really enjoy sharing accomplishments and experiences with those around, and it wouldn't be a surprise to any who know me if I end up teaching someday."
+    document.getElementById('pictureReturn').innerHTML = '<img id="fw2" src="/pictures/gator"/>'
+    document.getElementById('date').innerHTML = 'Current : '
+    document.getElementById('location').innerHTML = 'Full-Stack Web Dev Student'
+    document.getElementById('title').innerHTML = 'About : '
+    document.getElementById('blurb').innerHTML = "Howdy! I'm Wade, currently a full time student with aspirations of becoming a full-stack web developer!  I have coding experience with JavaScript, HTML5, CSS3, Git, Github, Heroku and even some design experience with Figma.  Before I got the coding bug, I was working as a travelling industrial welder which took me all over domestically, and even outside of the country a little bit.  After over a decade of burning up anything that came within a 20 foot radius of me, I've decided to hang up the full-time welding hood, although I'm still open to smaller projects.  Outside of work life, I'm forever a curious and adventerous person with hobbies including anything from scuba-diving, photography, multi-day camping/hiking excursions and catching up on the latest video games.  I will forever be a lifelong student, although I really enjoy sharing accomplishments and experiences with those around, and it wouldn't be a surprise to any who know me if I end up teaching someday."
 }  
      
 document.getElementById('projects').onclick = function() { 

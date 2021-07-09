@@ -1,6 +1,18 @@
 [
     {
       "id": 1,
-      "words": "Here is my test comment"
+      "words": "Leave a comment!"
+    },
+    {
+      "id": 2,
+      "words": "Isn't it handy that the scroll bar automagically drops to the last comment?  Cool!"
+    },
+    {
+      "id": 3,
+      "words": "Wow great job!"
+    },
+    {
+      "id": 4,
+      "words": "Delete a comment by clicking the  black 'x' in the red box!  Intuitive, I know.."
     }
 ]
